@@ -526,6 +526,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1238766131}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &1238766134 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198000010131513902, guid: 8e60b325a019543cbb2e3920522a2e6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1238766131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1280915542
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,8 +706,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireTransform: {fileID: 0}
-  muzzleFlashEffect: {fileID: 0}
-  shellEjectEffect: {fileID: 0}
+  muzzleFlashEffect: {fileID: 1937240840}
+  shellEjectEffect: {fileID: 1238766134}
   gunData: {fileID: 0}
   ammoRemain: 100
   magAmmo: 0
@@ -809,7 +815,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443555213}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1190,6 +1196,12 @@ PrefabInstance:
 --- !u!4 &1937240838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011227296186, guid: 74d744994bc414c37bfda957f1d57118,
+    type: 3}
+  m_PrefabInstance: {fileID: 1937240837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1937240840 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198000012944515248, guid: 74d744994bc414c37bfda957f1d57118,
     type: 3}
   m_PrefabInstance: {fileID: 1937240837}
   m_PrefabAsset: {fileID: 0}
