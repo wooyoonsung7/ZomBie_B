@@ -136,7 +136,7 @@ public class Gun : MonoBehaviour {
 
     // 재장전 시도
     public bool Reload() {
-        if (state == State.Ready || ammoRemain <= 0 || magAmmo >= gunData.magCapacity)
+        if (state == State.Reloading || ammoRemain <= 0 || magAmmo >= gunData.magCapacity)
         {
             return false;
         }
