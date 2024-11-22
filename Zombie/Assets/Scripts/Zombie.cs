@@ -45,7 +45,7 @@ public class Zombie : LivingEntity
         zombieAnimator = GetComponent<Animator>();
         zombieAudioPlayer = GetComponent<AudioSource>();
 
-        zombieRenderer = GetComponent<Renderer>();
+        zombieRenderer = GetComponentInChildren<Renderer>();
     }
 
     // 좀비 AI의 초기 스펙을 결정하는 셋업 메서드
